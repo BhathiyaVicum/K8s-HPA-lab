@@ -57,14 +57,12 @@ Prometheus collects Kubernetes and node/application-related metrics, while Grafa
 
 ---
 
----
-
 ## 🏗️ Screenshots
-<img width="858" height="427" alt="ss3" src="https://github.com/user-attachments/assets/af96b8d6-22a5-47be-bc81-e3daeb2285f0" />
+
 <img width="1918" height="867" alt="ss2" src="https://github.com/user-attachments/assets/f4675173-9729-44ea-85af-d920a94374ce" />
 <img width="1918" height="868" alt="ss1" src="https://github.com/user-attachments/assets/af48694a-0dad-4a64-a5cb-189095c6447d" />
 <img width="1231" height="271" alt="ss4" src="https://github.com/user-attachments/assets/3b4e8378-86ed-4259-bde7-487cf542769b" />
-
+<img width="858" height="427" alt="ss3" src="https://github.com/user-attachments/assets/af96b8d6-22a5-47be-bc81-e3daeb2285f0" />
 
 
 ---
