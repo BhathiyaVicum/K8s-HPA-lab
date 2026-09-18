@@ -1,0 +1,29 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: k6-load-test
+  namespace: hpa-lab
+
+spec:
+  template:
+    spec:
+      restartPolicy: Never
+
+      containers:
+        - name: k6
+          image: grafana/k6:latest
+
+          command:
+            - k6
+          args:
+            - run
+            - /scripts/load-test.js
+
+          volumeMounts:
+            - name: k6-script
+              mountPath: /scripts
+
+      volumes:
+        - name: k6-script
+          configMap:
+            name: k6-script
